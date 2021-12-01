@@ -4,5 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="LeetCodebyme" />
+    <orderEntry type="module" module-name="PyCharm Test Project" />
+    <orderEntry type="module" module-name="Python" />
+    <orderEntry type="module" module-name="LeetCode-Python" />
+    <orderEntry type="module" module-name="ClassicComputerScienceProblemsInPython" />
   </component>
 </module>

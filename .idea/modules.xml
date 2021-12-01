@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../《算法精粹 经典计算机科学问题的Python实现》/ClassicComputerScienceProblemsInPython/.idea/ClassicComputerScienceProblemsInPython.iml" filepath="$PROJECT_DIR$/../../《算法精粹 经典计算机科学问题的Python实现》/ClassicComputerScienceProblemsInPython/.idea/ClassicComputerScienceProblemsInPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../LeetCode-Python/.idea/LeetCode-Python.iml" filepath="$PROJECT_DIR$/../../LeetCode-Python/.idea/LeetCode-Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../LeetCodebyme/.idea/LeetCodebyme.iml" filepath="$PROJECT_DIR$/../../LeetCodebyme/.idea/LeetCodebyme.iml" />
+      <module fileurl="file://$USER_HOME$/002-Pycharm Projects/Python Entry-Level Source Code/.idea/PyCharm Test Project.iml" filepath="$USER_HOME$/002-Pycharm Projects/Python Entry-Level Source Code/.idea/PyCharm Test Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../../Python/.idea/Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/heima_DataStructureandAlgorithm_PyCharm_Project.iml" filepath="$PROJECT_DIR$/.idea/heima_DataStructureandAlgorithm_PyCharm_Project.iml" />
     </modules>
   </component>

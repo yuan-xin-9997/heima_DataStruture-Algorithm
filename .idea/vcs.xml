@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../LeetCode-Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../《算法精粹 经典计算机科学问题的Python实现》/ClassicComputerScienceProblemsInPython" vcs="Git" />
   </component>
 </project>
