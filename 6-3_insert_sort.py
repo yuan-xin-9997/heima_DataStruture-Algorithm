@@ -6,7 +6,47 @@
 @time: 2020/11/9 20:00
 @description:
 """
+import logging
+# logging.debug('debug message')
+# logging.info('info message')
+# logging.warning('warning message')
 
+import os
+logging.basicConfig(filename=os.path.join(os.getcwd(),'log.txt'),level=logging.DEBUG)
+logging.debug('this is a message')
+
+# -*-coding:utf-8-*-
+
+import logging
+
+
+def console_out(logFilename):
+    ''''' Output log to file and console '''
+    # Define a Handler and set a format which output to file
+    logging.basicConfig(
+        level=logging.DEBUG,  # 定义输出到文件的log级别，大于此级别的都被输出
+        format='%(asctime)s  %(filename)s : %(levelname)s  %(message)s',  # 定义输出log的格式
+        datefmt='%Y-%m-%d %A %H:%M:%S',  # 时间
+        filename=logFilename,  # log文件名
+        filemode='w')  # 写入模式“w”或“a”
+    # Define a Handler and set a format which output to console
+    console = logging.StreamHandler()  # 定义console handler
+    console.setLevel(logging.INFO)  # 定义该handler级别
+    formatter = logging.Formatter('%(asctime)s  %(filename)s : %(levelname)s  %(message)s')  # 定义该handler格式
+    console.setFormatter(formatter)
+    # Create an instance
+    logging.getLogger().addHandler(console)  # 实例化添加handler
+
+    # Print information              # 输出日志级别
+    logging.debug('logger debug message')
+    logging.info('logger info message')
+    logging.warning('logger warning message')
+    logging.error('logger error message')
+    logging.critical('logger critical message')
+
+
+if __name__ == "__main__":
+    console_out('logging.log')
 
 def insert_sort(a_list):
     """
@@ -32,6 +72,7 @@ def insert_sort(a_list):
 
 
 if __name__ == '__main__':
+    console_out('logging.log')
     li = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     print(li)
     insert_sort(li)
